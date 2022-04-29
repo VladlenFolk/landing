@@ -37,7 +37,7 @@
     );
   }
 
-  &_type_footer{
+  &_type_footer {
     margin-bottom: 60px;
     background-color: $bootColor;
     color: $textColor;
@@ -50,7 +50,7 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
-    letter-spacing: 0.1px;;
+    letter-spacing: 0.1px;
     font-family: "NotoSans", Arial, Helvetica, sans-serif;
     @media screen and (max-width: 450px) {
       width: 140px;
@@ -67,12 +67,12 @@
     }
   }
 
-  &_type_popup{
+  &_type_popup {
     width: 108px;
     height: 48px;
   }
 
-  &:hover{
-    background: #066C4C;
+  &:hover {
+    background: #066c4c;
   }
 }

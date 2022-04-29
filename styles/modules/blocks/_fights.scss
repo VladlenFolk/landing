@@ -92,18 +92,17 @@
   }
 
   &__chess-green {
-    background: url(../../../images/desk-green.svg) no-repeat center;
+    background: url(../images/desk-green.svg) no-repeat center;
     width: 416px;
     height: 104px;
     margin: 110px 0 0 63%;
-    // margin-left: 63% ;
     @media screen and (max-width: 1290px) {
       margin: 140px 0 0 252px;
     }
     @media screen and (max-width: 740px) {
       margin: 60px 0 0 ;
       margin-left: 30%;
-      background: url(../../../images/chess-green320.svg) no-repeat center;
+      background: url(../images/chess-green320.svg) no-repeat center;
       width: 280px;
       height: 70px;
     }
@@ -113,7 +112,7 @@
   }
 
   &__half-circle {
-    background: url(../../../images/half-circle.svg) no-repeat center;
+    background: url(../images/half-circle.svg) no-repeat center;
     width: 440px;
     height: 220px;
     position: absolute;
@@ -125,6 +124,18 @@
     @media screen and (max-width: 1290px) {
       visibility: hidden;
     }
+  }
   
+  &__points {
+    background: url(../images/points.svg) no-repeat center;
+    width: 44px;
+    height: 8px;
+    position: absolute;
+    visibility: hidden;
+    @media screen and (max-width: 320px) {
+      position: relative;
+      visibility: visible;
+      margin: 30px auto 0;
+    }
   }
 }

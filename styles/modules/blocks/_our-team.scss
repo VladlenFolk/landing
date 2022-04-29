@@ -111,14 +111,14 @@
       padding-top: 20px;
       text-align: center;
       @include font(
-      $font,
-      $textColor,
-      $weight: 400,
-      $size: 18px,
-      $lh: 23.4px,
-      $fontNormal: normal
-    );
-    letter-spacing: 5.5%;
+        $font,
+        $textColor,
+        $weight: 400,
+        $size: 18px,
+        $lh: 23.4px,
+        $fontNormal: normal
+      );
+      letter-spacing: 5.5%;
     }
   }
   &__hobby {
@@ -146,15 +146,15 @@
     }
   }
 
-  &__points{
-    background: url(../../../images/points.svg) no-repeat center;
+  &__points {
+    background: url(../images/points.svg) no-repeat center;
     width: 44px;
     height: 8px;
     position: absolute;
     visibility: hidden;
     @media screen and (max-width: 320px) {
       position: relative;
-      visibility:visible;
+      visibility: visible;
       margin: 30px auto 0;
     }
   }
@@ -175,21 +175,21 @@
   &__circle {
     width: 880px;
     height: 440px;
-    background: url(../../../images/circles2.svg) no-repeat center;
+    background: url(../images/circles2.svg) no-repeat center;
     position: absolute;
     bottom: 60px;
     left: -110px;
     overflow: hidden;
     @include mediaImageL(
       1360px,
-      url(../../../images/cercles-green2.svg),
+      url(../images/cercles-green2.svg),
       180px,
       360px,
       50px,
       0
     );
     @media screen and (max-width: 700px) {
-      background: url(../../../images/cercle-down.svg) no-repeat center;
+      background: url(../images/cercle-down.svg) no-repeat center;
       width: 280px;
       height: 140px;
       bottom: 0;

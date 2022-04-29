@@ -58,7 +58,7 @@
 }
 
 .header__vector {
-  background: url(../../../images/Vector.svg) no-repeat center;
+  background: url(../images/Vector.svg) no-repeat center;
   width: 10.07px;
   height: 12.81px;
   margin: 0 2px 0 14px;
@@ -67,7 +67,7 @@
 .header__logo {
   width: 38px;
   height: 54px;
-  background: url(../../../images/pawn.png) no-repeat center;
+  background: url(../images/pawn.png) no-repeat center;
   display: flex;
   flex-direction: column;
   align-self: start;
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 450px) {
   .header__logo {
-    background: url(../../../images/pawn550.svg) no-repeat center;
+    background: url(../images/pawn550.svg) no-repeat center;
     width: 26px;
     height: 36px;
   }
@@ -224,14 +224,14 @@
 }
 
 .header__chess-desk {
-  background: url(../../../images/chess-desk.svg) no-repeat center;
+  background: url(../images/chess-desk.svg) no-repeat center;
   width: 416px;
   height: 104px;
 }
 
 @media screen and (max-width: 450px) {
   .header__chess-desk {
-    background: url(../../../images/chess-desk550.svg) no-repeat center;
+    background: url(../images/chess-desk550.svg) no-repeat center;
     width: 280px;
     height: 70px;
   }
@@ -240,7 +240,7 @@
 .header__circles {
   width: 480px;
   height: 640px;
-  background: url(../../../images/circles.svg);
+  background: url(../images/circles.svg);
   position: absolute;
   bottom: 80px;
   right: 0px;
@@ -249,7 +249,7 @@
 
 @media screen and (max-width: 1120px) {
   .header__circles {
-    background: url(../../../images/cercles1120.svg) no-repeat center;
+    background: url(../images/cercles1120.svg) no-repeat center;
     width: 130px;
     height: 520px;
     bottom: 50px;
@@ -259,7 +259,7 @@
 
 @media screen and (max-width: 660px) {
   .header__circles {
-    background: url(../../../images/cercles3.svg) no-repeat center;
+    background: url(../images/cercles3.svg) no-repeat center;
     width: 120px;
     height: 60px;
     bottom: 390px;
@@ -273,7 +273,7 @@
 }
 
 .footer {
-  background-color: #5036E6;
+  background-color: #5036e6;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -284,7 +284,7 @@
 .footer__logo {
   width: 38px;
   height: 54px;
-  background: url(../../../images/pawn.png) no-repeat;
+  background: url(../images/pawn.png) no-repeat;
   display: flex;
   flex-direction: column;
   margin: 80px 0 60px;
@@ -365,7 +365,7 @@
   margin: 0;
   position: relative;
   width: 100%;
-  background-color: #5036E6;
+  background-color: #5036e6;
   padding: 80px 160px 0;
   box-sizing: border-box;
 }
@@ -522,7 +522,7 @@
 }
 
 .our-team__points {
-  background: url(../../../images/points.svg) no-repeat center;
+  background: url(../images/points.svg) no-repeat center;
   width: 44px;
   height: 8px;
   position: absolute;
@@ -559,7 +559,7 @@
 .our-team__circle {
   width: 880px;
   height: 440px;
-  background: url(../../../images/circles2.svg) no-repeat center;
+  background: url(../images/circles2.svg) no-repeat center;
   position: absolute;
   bottom: 60px;
   left: -110px;
@@ -568,7 +568,7 @@
 
 @media screen and (max-width: 1360px) {
   .our-team__circle {
-    background: url(../../../images/cercles-green2.svg) no-repeat center;
+    background: url(../images/cercles-green2.svg) no-repeat center;
     width: 180px;
     height: 360px;
     bottom: 50px;
@@ -578,7 +578,7 @@
 
 @media screen and (max-width: 700px) {
   .our-team__circle {
-    background: url(../../../images/cercle-down.svg) no-repeat center;
+    background: url(../images/cercle-down.svg) no-repeat center;
     width: 280px;
     height: 140px;
     bottom: 0;
@@ -762,7 +762,7 @@
 }
 
 .fights__chess-green {
-  background: url(../../../images/desk-green.svg) no-repeat center;
+  background: url(../images/desk-green.svg) no-repeat center;
   width: 416px;
   height: 104px;
   margin: 110px 0 0 63%;
@@ -778,7 +778,7 @@
   .fights__chess-green {
     margin: 60px 0 0;
     margin-left: 30%;
-    background: url(../../../images/chess-green320.svg) no-repeat center;
+    background: url(../images/chess-green320.svg) no-repeat center;
     width: 280px;
     height: 70px;
   }
@@ -791,7 +791,7 @@
 }
 
 .fights__half-circle {
-  background: url(../../../images/half-circle.svg) no-repeat center;
+  background: url(../images/half-circle.svg) no-repeat center;
   width: 440px;
   height: 220px;
   position: absolute;
@@ -808,6 +808,22 @@
 @media screen and (max-width: 1290px) {
   .fights__half-circle {
     visibility: hidden;
+  }
+}
+
+.fights__points {
+  background: url(../images/points.svg) no-repeat center;
+  width: 44px;
+  height: 8px;
+  position: absolute;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 320px) {
+  .fights__points {
+    position: relative;
+    visibility: visible;
+    margin: 30px auto 0;
   }
 }
 
@@ -890,7 +906,7 @@
 }
 
 .login:hover {
-  background: #066C4C;
+  background: #066c4c;
 }
 
 .popup {
@@ -916,7 +932,7 @@
 .popup__logo {
   width: 38px;
   height: 54px;
-  background: url(../../../images/pawn.png) no-repeat center;
+  background: url(../images/pawn.png) no-repeat center;
   margin: 120px auto 50px;
 }
 
@@ -928,7 +944,7 @@
 
 @media screen and (max-width: 550px) {
   .popup__logo {
-    background: url(../../../images/pawn550.svg) no-repeat center;
+    background: url(../images/pawn550.svg) no-repeat center;
     width: 26px;
     height: 36px;
     margin: 120px auto 40px;
